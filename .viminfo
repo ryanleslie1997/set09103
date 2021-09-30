@@ -11,14 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1633040640,,"wq"
+:q
+|2,0,1633040266,,"q"
+:help
+|2,0,1632611835,,"help"
+:vim hello.py
+|2,0,1632611827,,"vim hello.py"
 :wq hello.txt
 |2,0,1632594959,,"wq hello.txt"
 :wq hello.py
 |2,0,1632590946,,"wq hello.py"
-:wq
-|2,0,1632590934,,"wq"
-:q
-|2,0,1632522203,,"q"
 :e start.py
 |2,0,1632522112,,"e start.py"
 :q!
@@ -39,204 +43,263 @@
 # Registers:
 
 # File marks:
-'0  1  10  ~/set09103/hello.txt
-|4,48,1,10,1632594959,"~/set09103/hello.txt"
-'1  1  10  ~/hello.txt
-|4,49,1,10,1632592685,"~/hello.txt"
-'2  6  24  ~/hello.py
-|4,50,6,24,1632590946,"~/hello.py"
-'3  1  20  ~/start.py
-|4,51,1,20,1632522203,"~/start.py"
-'4  1  20  ~/start.py
-|4,52,1,20,1632522141,"~/start.py"
-'5  1  21  ~/filename.txt
-|4,53,1,21,1631786423,"~/filename.txt"
+'0  10  38  ~/hello.py
+|4,48,10,38,1633040641,"~/hello.py"
+'1  8  328  ~/hello.py
+|4,49,8,328,1633040266,"~/hello.py"
+'2  21  28  ~/hello.py
+|4,50,21,28,1633040266,"~/hello.py"
+'3  2  0  ~/templates/hello.html
+|4,51,2,0,1632694290,"~/templates/hello.html"
+'4  8  328  ~/hello.py
+|4,52,8,328,1632615217,"~/hello.py"
+'5  21  28  ~/hello.py
+|4,53,21,28,1632615217,"~/hello.py"
+'6  9  8  ~/hello.py
+|4,54,9,8,1632613260,"~/hello.py"
+'7  8  163  ~/hello.py
+|4,55,8,163,1632613260,"~/hello.py"
+'8  9  8  ~/hello.py
+|4,56,9,8,1632613260,"~/hello.py"
+'9  8  163  ~/hello.py
+|4,57,8,163,1632613260,"~/hello.py"
 
 # Jumplist (newest first):
+-'  10  38  ~/hello.py
+|4,39,10,38,1633040641,"~/hello.py"
+-'  8  328  ~/hello.py
+|4,39,8,328,1633040281,"~/hello.py"
+-'  21  28  ~/hello.py
+|4,39,21,28,1633040266,"~/hello.py"
+-'  2  0  ~/templates/hello.html
+|4,39,2,0,1632694290,"~/templates/hello.html"
+-'  2  0  ~/templates/hello.html
+|4,39,2,0,1632694290,"~/templates/hello.html"
+-'  2  0  ~/templates/hello.html
+|4,39,2,0,1632694290,"~/templates/hello.html"
+-'  2  0  ~/templates/hello.html
+|4,39,2,0,1632694290,"~/templates/hello.html"
+-'  1  0  ~/templates/hello.html
+|4,39,1,0,1632693547,"~/templates/hello.html"
+-'  1  0  ~/templates/hello.html
+|4,39,1,0,1632693547,"~/templates/hello.html"
+-'  1  0  ~/templates/hello.html
+|4,39,1,0,1632693547,"~/templates/hello.html"
+-'  1  0  ~/templates/hello.html
+|4,39,1,0,1632693547,"~/templates/hello.html"
+-'  21  28  ~/hello.py
+|4,39,21,28,1632615217,"~/hello.py"
+-'  21  28  ~/hello.py
+|4,39,21,28,1632615217,"~/hello.py"
+-'  9  8  ~/hello.py
+|4,39,9,8,1632615021,"~/hello.py"
+-'  23  8  ~/hello.py
+|4,39,23,8,1632615021,"~/hello.py"
+-'  23  8  ~/hello.py
+|4,39,23,8,1632615021,"~/hello.py"
+-'  23  8  ~/hello.py
+|4,39,23,8,1632615021,"~/hello.py"
+-'  16  8  ~/hello.py
+|4,39,16,8,1632613260,"~/hello.py"
+-'  16  8  ~/hello.py
+|4,39,16,8,1632613260,"~/hello.py"
+-'  16  8  ~/hello.py
+|4,39,16,8,1632613260,"~/hello.py"
+-'  24  38  ~/hello.py
+|4,39,24,38,1632612835,"~/hello.py"
+-'  17  38  ~/hello.py
+|4,39,17,38,1632612835,"~/hello.py"
+-'  24  38  ~/hello.py
+|4,39,24,38,1632612835,"~/hello.py"
+-'  17  38  ~/hello.py
+|4,39,17,38,1632612835,"~/hello.py"
+-'  24  38  ~/hello.py
+|4,39,24,38,1632612835,"~/hello.py"
+-'  17  38  ~/hello.py
+|4,39,17,38,1632612835,"~/hello.py"
+-'  17  38  ~/hello.py
+|4,39,17,38,1632612061,"~/hello.py"
+-'  17  38  ~/hello.py
+|4,39,17,38,1632612061,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1632611866,"~/hello.py"
 -'  1  10  ~/set09103/hello.txt
 |4,39,1,10,1632594959,"~/set09103/hello.txt"
--'  1  10  ~/hello.txt
-|4,39,1,10,1632592685,"~/hello.txt"
--'  1  10  ~/hello.txt
-|4,39,1,10,1632592685,"~/hello.txt"
--'  6  24  ~/hello.py
-|4,39,6,24,1632590946,"~/hello.py"
--'  6  24  ~/hello.py
-|4,39,6,24,1632590946,"~/hello.py"
--'  6  24  ~/hello.py
-|4,39,6,24,1632590946,"~/hello.py"
--'  6  24  ~/hello.py
-|4,39,6,24,1632590946,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1632590852,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1632590852,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1632590852,"~/hello.py"
--'  1  0  ~/hello.py
-|4,39,1,0,1632590852,"~/hello.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522203,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  20  ~/start.py
-|4,39,1,20,1632522141,"~/start.py"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
--'  1  21  ~/filename.txt
-|4,39,1,21,1631786423,"~/filename.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
+-'  1  10  ~/set09103/hello.txt
+|4,39,1,10,1632594959,"~/set09103/hello.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/hello.py
+	*	1633040636	0
+	"	10	38
+	^	10	39
+	.	10	39
+	+	10	38
+	+	7	11
+	+	5	8
+	+	9	9
+	+	1	31
+	+	8	188
+	+	8	328
+	+	1	39
+	+	5	18
+	+	4	24
+	+	6	25
+	+	7	50
+	+	9	0
+	+	7	38
+	+	10	39
+
+> ~/templates/hello.html
+	*	1632694042	0
+	"	2	0
+	^	3	6
+	.	3	6
+	+	2	32
+	+	3	6
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1632611853	0
+	"	1	0
 
 > ~/start.py
 	*	1632522199	0
