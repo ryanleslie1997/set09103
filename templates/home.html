@@ -2,7 +2,7 @@
 {% block content %}
 
     <div class="container marketing">
-      <img src="{{url_for('static', filename='highlands.jpg')}}" />
+       <img src="{{url_for('static', filename='highlands.jpg')}}" />
 
       <div class="row featurette">
         <div class="col-md-7">
@@ -11,7 +11,7 @@
         </div>
 
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="/img/highlands.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="{{url_for('static', filename='highlands.jpg')}}" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -22,7 +22,7 @@
         </div>
 
         <div class="col-md-5">
-		<img class="featurette-image img-responsive center-block" src={{url_for('static', filename='highlands.jpg')}}" data-src="/img/highlands.jpg" alt="Generic placeholder image">
+		<img class="featurette-image img-responsive center-block" src="{{url_for('static', filename='highlands.jpg')}}" alt="Generic placeholder image">
         </div>
       </div>
      </div>
