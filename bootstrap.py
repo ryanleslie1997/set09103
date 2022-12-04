@@ -5,7 +5,7 @@ app = Flask(__name__)
 def root():
     return render_template('home.html'), 200
 
-@app.route('/tourist/')
+@app.route('/tourist/', methods=['GET', 'POST'])
 def tourist():
     return render_template('tourist.html'), 200
 
