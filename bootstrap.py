@@ -3,10 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def root():
-    return render_template('base.html'), 200
-
-@app.route('/home/')
-def home():
     return render_template('home.html'), 200
 
 @app.route('/tourist/')
