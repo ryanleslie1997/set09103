@@ -5,11 +5,11 @@ app = Flask(__name__)
 def root():
     return render_template('base.html'), 200
 
-@app.route('/')
+@app.route('/home/')
 def home():
     return render_template('inherits1.html'), 200
 
-@app.route('/')
+@app.route('/tourist/')
 def tourist():
     return render_template('inherits2.html'), 200
 
