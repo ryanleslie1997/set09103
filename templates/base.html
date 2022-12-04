@@ -3,15 +3,13 @@
 		<title>Explore Scotland</title>
 		<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
 		<style>
-    body{ 
-      padding-top: 50px;
-    } 
 	html {
   position: relative;
   min-height: 100%;
 }
 body {
   /* Margin bottom by footer height */
+  padding-top: 50px;
   margin-bottom: 60px;
 }
 .footer {
@@ -21,6 +19,14 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 }
   </style>
 	</head>
@@ -51,10 +57,19 @@ body {
 		{% endblock %} 
 		<footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+				<address>
+		  <strong>Twitter, Inc.</strong><br>
+		  1355 Market Street, Suite 900<br>
+		  San Francisco, CA 94103<br>
+		  <abbr title="Phone">P:</abbr> (123) 456-7890
+		</address>
+
+		<address>
+		  <strong>Full Name</strong><br>
+		  <a href="mailto:#">first.last@example.com</a>
+		</address>
       </div>
     </footer>
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
 	</body>
