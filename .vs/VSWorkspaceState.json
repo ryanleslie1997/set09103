@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\static",
+    "\\static\\css",
+    "\\static\\fonts",
+    "\\static\\js",
+    "\\templates"
   ],
-  "SelectedNode": "\\C:\\Users\\ryanl\\Source\\Repos\\set09103",
+  "SelectedNode": "\\templates\\base.html",
   "PreviewInSolutionExplorer": false
 }
