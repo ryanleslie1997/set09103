@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\static",
-    "\\static\\css",
-    "\\static\\fonts",
-    "\\static\\js",
+    "\\static\\img",
     "\\templates"
   ],
-  "SelectedNode": "\\templates\\base.html",
   "PreviewInSolutionExplorer": false
 }
