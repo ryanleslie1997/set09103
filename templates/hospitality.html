@@ -1,7 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-    <h1>Hospitality</h1>
-    <p>stuff</p>
-</div>
-{% endblock %}}
+<div class="container marketing">
+
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{url_for('static', filename='img/irnbru.jpg')}}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Irn Bru</h2>
+            <p>Irn-Bru is a Scottish carbonated soft drink, often described as "Scotland's other national drink". Introduced in 1901, the drink is produced in Westfield, Cumbernauld, North Lanarkshire, by A.G. Barr of Glasgow.</p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{url_for('static', filename='img/friedfood.jpg')}}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Chippys</h2>
+            <p>One of the most popular types of food in Scotland is food from the chippy (Chip Shop). You can even get a fried Mars bar!</p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{url_for('static', filename='img/haggis.jpg')}}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Haggis</h2>
+            <p>Haggis is a very popular food in Scotland. It is often eaten with neeps (turnip) and tatties (potatoes).</p>
+        </div>
+    </div>
+    </div>
+    {% endblock %}}

@@ -9,15 +9,11 @@ def root():
 def tourist():
     return render_template('tourist.html'), 200
 
-@app.route('/retail/')
-def retail():
-    return render_template('retail.html'), 200
-
-@app.route('/hospitality/')
+@app.route('/hospitality/', methods=['GET', 'POST'])
 def hospitality():
     return render_template('hospitality.html'), 200
 
-@app.route('/history/')
+@app.route('/history/', methods=['GET', 'POST'])
 def history():
     return render_template('history.html'), 200
 
